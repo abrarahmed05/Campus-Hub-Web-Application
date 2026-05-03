@@ -20,6 +20,59 @@ Backend: Node.js
 
 Database: MySQL
 
+## Installation & Setup
+
+Follow these steps to run Campus Hub locally:
+
+### 1. Prerequisites
+
+Make sure you have installed:
+- Node.js (v14 or higher)
+- MySQL
+
+---
+
+### 2. Database Setup
+
+1. Open MySQL (terminal or Workbench)
+
+2. Create a database:
+```sql
+CREATE DATABASE studenthub;
+
+Import the schema:
+    *   Locate the `studenthub.sql` file in the project directory.
+    *   Run the following command in your terminal:
+    ```bash
+    mysql -u your_username -p studenthub < studenthub.sql
+    ```
+
+### 3. Project Configuration
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/abrarahmed05/Campus-Hub-Web-Application.git
+    cd Campus-Hub-Web-Application
+    ```
+2.  Install the required dependencies:
+    
+```bash
+    npm install
+    ```
+3.  **Environment Variables:** 
+    Create a file named `.env` in the root directory and add your MySQL credentials:
+    ```text
+    DB_HOST=localhost
+    DB_USER=your_mysql_username
+    DB_PASS=your_mysql_password
+    DB_NAME=studenthub
+    PORT=3000
+    ```
+
+### 4. Running the App
+Start the backend server:
+```bash
+node server.js
+
 # Author
 Abrar Ahmed
 
