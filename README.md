@@ -1,8 +1,7 @@
 # Campus Hub
 
-A centralized web portal designed to streamline campus activities and student resource management.
+Campus Hub is a full-stack web application designed to centralize student activities, including events, task management, lost & found, and resource sharing, into a single platform.
 
----
 
 ##  About the Project
 This project was built to solve the fragmentation of student resources. Instead of checking multiple sites, students can find everything in one place—from event updates to tracking their own coursework.
@@ -10,11 +9,13 @@ This project was built to solve the fragmentation of student resources. Instead 
 ---
 
 ##  Features
-*   **User Authentication:** Secure login system for students.
-*   **Events Board:** Real-time updates on campus activities and registrations.
-*   **Task Management:** A personal dashboard to manage study tasks and deadlines.
-*   **Lost & Found:** A community-driven system with full **CRUD** functionality to report and find items.
-*   **Responsive Design:** Fully functional on both desktop and mobile browsers.
+
+- Academic calendar and task management  
+-  Events board with RSVP functionality  
+-  Lost & found system  
+-  Resource sharing platform  
+-  Admin announcements system  
+-  Role-based access (Student & Admin)
 
 ---
 
